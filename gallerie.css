@@ -1,0 +1,85 @@
+/* Style principal */
+body {
+  font-family: "Arial Black", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Bannière principale */
+.banner {
+  background-color: #DA291C;
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+  position: relative;
+}
+
+.banner .logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 80px;
+}
+
+.banner nav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.banner nav a {
+  margin-left: 20px;
+  color: #FFC72C;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.banner-content h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Section Galerie */
+.gallery {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.gallery h2 {
+  font-size: 24px;
+  color: #DA291C;
+  margin-bottom: 30px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+}
+
+.more-coming {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #DA291C;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #DA291C;
+  color: #fff;
+}

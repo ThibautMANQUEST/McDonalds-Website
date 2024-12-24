@@ -1,0 +1,81 @@
+/* Style principal */
+body {
+  font-family: "Arial Black", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Bannière principale */
+.banner {
+  background-color: #DA291C;
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+  position: relative;
+}
+
+.banner .logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 80px;
+}
+
+.banner nav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.banner nav a {
+  margin-left: 20px;
+  color: #FFC72C;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.banner-content h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Section Réseaux */
+.networks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 50px 20px;
+}
+
+.network-item {
+  text-align: center;
+}
+
+.network-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.network-item .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FFC72C;
+  color: #DA291C;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #DA291C;
+  color: #fff;
+}
